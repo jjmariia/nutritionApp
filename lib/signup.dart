@@ -14,7 +14,7 @@ class SignUp extends StatelessWidget {
           children: <Widget>[
             Padding(
               padding: EdgeInsets.all(10.0),
-              child: Text("Diet Logging",
+              child: Text("Nutrition App",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 30,

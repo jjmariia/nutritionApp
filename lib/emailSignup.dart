@@ -123,8 +123,8 @@ class _EmailSignUpState extends State<EmailSignUp> {
                     ? CircularProgressIndicator()
                     : ElevatedButton(
                         style: ButtonStyle(
-                            backgroundColor: MaterialStateProperty.all<Color>(
-                                Colors.lightBlue)),
+                            backgroundColor:
+                                MaterialStateProperty.all<Color>(Colors.pink)),
                         onPressed: () {
                           if (_formKey.currentState!.validate()) {
                             setState(() {
