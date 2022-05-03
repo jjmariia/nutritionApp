@@ -6,6 +6,8 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 
 class EmailSignUp extends StatefulWidget {
+  const EmailSignUp({Key? key}) : super(key: key);
+
   @override
   _EmailSignUpState createState() => _EmailSignUpState();
 }

@@ -38,7 +38,7 @@ class SignUp extends StatelessWidget {
                     child: Text("Log In Using Email",
                         style: TextStyle(
                             decoration: TextDecoration.underline,
-                            color: Colors.blue)),
+                            color: Colors.pink)),
                     onTap: () {
                       Navigator.push(
                         context,
