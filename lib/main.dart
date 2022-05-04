@@ -9,6 +9,7 @@ import 'signup.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+    name: 'nutritionapp',
     options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(MyApp());
